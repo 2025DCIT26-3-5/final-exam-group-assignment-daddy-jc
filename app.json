@@ -1,5 +1,6 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "hello-pilipinas",
     "slug": "hello-pilipinas",
     "version": "1.0.0",
@@ -25,6 +26,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+=======
+    "extra": {
+      "eas": {
+        "projectId": "099b1528-ef8c-480a-80df-99b6d8426ca8"
+      }
+>>>>>>> 5fae763 (Push all local changes to new remote repository)
     }
   }
 }

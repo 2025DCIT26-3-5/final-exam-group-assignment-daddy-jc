@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ResQ Tap",
+    "slug": "resq-tap-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#DC2626"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.resqtap.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "ResQ Tap needs your location to send accurate emergency alerts.",
+        "NSLocationAlwaysUsageDescription": "ResQ Tap needs your location to send accurate emergency alerts even when the app is in the background."
+      }
+    },
+    "android": {
+      "package": "com.resqtap.app",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {},
+    "extra": {
+      "API_URL": "https://emergencyresponse-n8cc.onrender.com/api",
+      "eas": {
+        "projectId": "c88000ef-bbd7-491f-9cd3-ae9bf072c58d"
+      }
+    }
+  }
+}
